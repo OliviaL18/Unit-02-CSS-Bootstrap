@@ -7,6 +7,8 @@ body {
     background-image: url("../images/greyfloral.png");
   }
 
+
+/** ----- CSS from the prior assignment ------
 header{
     margin: 0;
     height: 60px;
@@ -151,3 +153,4 @@ div.bottom{
     line-height: 40px;
     display: inline-block;
 }
+**/
