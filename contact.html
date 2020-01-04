@@ -36,42 +36,32 @@
 
 <!--Contact Form-->
 <div class="container">
-    <div class="card">
-    <div class="card-body">
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div class="well well-sm">
-                <form class="form-horizontal" action="" method="post">
-                    <fieldset>
-                        <legend class="text-center">Contact</legend>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-body">
+                    <form>
+                        <legend class="text-left">Contact</legend>
                         <div class="form-group">
-                            <label class="col-md-3 control-label" for="name">Name</label>
-                            <div class="col-md-9">
-                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-                            </div>
+                            <label for="InputName">Name</label>
+                            <input type="email" class="form-control" id="InputName aria-describedby="emailHelp" placeholder="John Smith">
                         </div>
                         <div class="form-group">
-                            <label class="col-md-3 control-label" for="email">Your E-mail</label>
-                            <div class="col-md-9">
-                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-                            </div>
+                            <label for="InputEmail">Email</label>
+                            <input type="password" class="form-control" id="InputEmail" placeholder="example@gmail.com">
                         </div>
                         <div class="form-group">
-                            <label class="col-md-3 control-label" for="message">Your message</label>
-                            <div class="col-md-9">
-                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                            </div>
+                            <label for="InputMessage">Message</label>
+                            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
                         </div>
-                        <div class="form-group">
-                            <div class="col-md-12 text-right">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div></div></div>
+        <div class="col-sm-2"></div>
+    </div>
 </div>
 
 <!-- Footer -->
