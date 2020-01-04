@@ -21,6 +21,13 @@ body {
     margin: 0px;
 }
 
+h1.title{
+    margin: 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
 img.photo {
     margin: 10px;
     border-radius: 5px;
