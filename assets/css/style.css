@@ -2,3 +2,25 @@ body {
     margin: 0;
     background-image: url("../images/greyfloral.png");
 }
+
+.navbar {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.page-footer{
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+#headerName{
+    padding: 0px;
+    line-height: 100%;
+    float: left;
+    display: inline-block;
+    background-color: #4aaaa5;
+}
