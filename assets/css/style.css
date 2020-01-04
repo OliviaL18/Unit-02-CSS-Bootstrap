@@ -10,23 +10,27 @@ body {
     border-bottom: 1.5px solid #cccccc;
 }
 
-#headerName{
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+h1#head{
     float: left;
     display: inline-block;
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
+h1.title{
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
 .container{
     margin: 0px;
 }
 
-h1.title{
-    margin: 0;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #4aaaa5;
-    font-weight: bold;
-}
 
 img.photo {
     margin: 10px;
